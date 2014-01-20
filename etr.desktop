@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Extreme Tux Racer
+Version=1
+Exec=/usr/local/share/etr/etr
+Comment=Extreme Tux Racer
+Icon=/usr/local/share/etr/etr.png
+Type=Application
+Terminal=false
+StartupNotify=true
+Encoding=UTF-8
+Categories=Game;RacingGame;
