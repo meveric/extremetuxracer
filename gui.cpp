@@ -190,13 +190,9 @@ void PrintIconButton (int nr, int focus, int state) {
 
 	if( ( 0 <= state ) && ( state <= 3 ) )
 	{
-#if defined(HAVE_GL_GLES1)
-
-#else
 		glTexCoordPointer(2, GL_FLOAT, 0, tex[state]);
 		glVertexPointer(2, GL_FLOAT, 0, vtx);
 		glDrawArrays(GL_TRIANGLE_FAN,0,4);
-#endif
 	}
 
 	glDisableClientState(GL_TEXTURE_COORD_ARRAY);
