@@ -1,3 +1,6 @@
+Extreme Tux Racer
+=================
+
 This is a fork of extremetuxracer (http://extremetuxracer.com), focussing on cross-platform, performance & OpenGL-ES support.
 
 Aims
